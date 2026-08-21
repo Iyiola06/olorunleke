@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: 'Olorunleke Ojuolape',
     images: [
       {
-        url: 'https://picsum.photos/seed/founder/1200/630',
+        url: '/logo1.jpg',
         width: 1200,
-        height: 630,
-        alt: 'Olorunleke Ojuolape',
+        height: 1200,
+        alt: 'Olorunleke Ojuolape Logo',
       },
     ],
   },
@@ -38,6 +38,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Olorunleke Ojuolape | Founder',
     description: 'Founder, Entrepreneur, and Real Estate Professional.',
+    images: ['/logo1.jpg'],
+  },
+  icons: {
+    icon: '/logo1.jpg',
+    apple: '/logo1.jpg',
   },
 };
 
