@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+
+  --color-ivory: #F8F3EA;
+  --color-white: #FFFFFF;
+  --color-sand: #E8DCC8;
+  --color-gold: #C8A96A;
+  --color-dark: #181818;
+  --color-muted: #6B665E;
+
+  --animate-sweep: sweep 1.5s ease-in-out infinite;
+  
+  @keyframes sweep {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/55 backdrop-blur-[25px] border border-white/40 shadow-[0_8px_32px_rgba(24,24,24,0.04)] rounded-[32px];
+  }
+}
+
+html, body {
+  @apply bg-ivory text-dark;
+}
