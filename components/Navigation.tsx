@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Navigation() {
   const { scrollY } = useScroll();
@@ -24,9 +25,7 @@ export function Navigation() {
     { name: 'About', href: '/about' },
     { name: 'Vision', href: '/vision' },
     { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Leadership', href: '/leadership' },
-    { name: 'Insights', href: '/insights' },
-    { name: 'Contact', href: '#' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -42,15 +41,24 @@ export function Navigation() {
           transition={{ duration: 0.4, ease: "easeOut" }}
           className={twMerge(
             clsx(
-              "w-full lg:w-[90%] max-w-7xl flex items-center justify-between px-6 transition-all duration-500 rounded-full",
+              "w-full lg:w-[90%] max-w-7xl flex items-center justify-between px-6 md:px-8 transition-all duration-500 rounded-full",
               scrolled || mobileMenuOpen
-                ? "py-4 bg-white/55 backdrop-blur-[30px] border border-white/40 shadow-[0_8px_32px_rgba(24,24,24,0.04)]" 
-                : "py-6 bg-transparent border border-transparent"
+                ? "py-3.5 bg-white/80 backdrop-blur-[30px] border border-white/60 shadow-[0_8px_32px_rgba(24,24,24,0.06)]" 
+                : "py-4.5 bg-white/50 backdrop-blur-md border border-white/40 shadow-sm"
             )
           )}
         >
-          <Link href="/" className="font-sans text-sm md:text-base font-semibold tracking-[0.15em] uppercase text-dark z-50 relative">
-            Olorunleke Ojuolape
+          <Link href="/" className="flex items-center space-x-3 font-sans text-sm md:text-base font-semibold tracking-[0.15em] uppercase text-dark z-50 relative group">
+            <div className="relative w-8 h-8 md:w-9 md:h-9 rounded-full overflow-hidden border border-gold/40 flex-shrink-0">
+              <Image 
+                src="/logo1.jpg" 
+                alt="Olorunleke Ojuolape Logo" 
+                fill 
+                className="object-cover rounded-full"
+                priority
+              />
+            </div>
+            <span>Olorunleke Ojuolape</span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-10">
@@ -60,17 +68,6 @@ export function Navigation() {
               </Link>
             ))}
           </nav>
-
-          <div className="hidden md:block">
-            <motion.a 
-              href="#partner"
-              whileHover={{ y: -3 }}
-              transition={{ type: "spring", stiffness: 400, damping: 25 }}
-              className="group relative inline-flex items-center justify-center px-6 py-3 font-sans text-xs font-semibold tracking-widest uppercase bg-white/40 backdrop-blur-md border border-white/60 text-dark rounded-full overflow-hidden hover:bg-white hover:border-gold hover:shadow-[0_0_15px_rgba(200,169,106,0.15)] transition-all duration-300"
-            >
-              <span className="relative z-10">Partner With Me</span>
-            </motion.a>
-          </div>
 
           <button 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -120,20 +117,6 @@ export function Navigation() {
                   </Link>
                 </motion.div>
               ))}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: navItems.length * 0.1 }}
-                className="pt-8"
-              >
-                <a 
-                  href="#partner"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="inline-flex items-center justify-center px-8 py-4 font-sans text-sm font-semibold tracking-widest uppercase bg-dark text-white rounded-full"
-                >
-                  Partner With Me
-                </a>
-              </motion.div>
             </nav>
           </motion.div>
         )}

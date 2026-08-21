@@ -8,17 +8,17 @@ const humanAspects = [
   {
     title: "Leadership",
     desc: "Guiding teams with clarity and purpose, fostering environments where excellence thrives naturally.",
-    img: "https://picsum.photos/seed/leadership2/800/1000"
+    img: "/founder.jpg"
   },
   {
     title: "Relationships",
     desc: "Cultivating deep, lasting connections based on mutual respect, transparency, and shared values.",
-    img: "https://picsum.photos/seed/relationship2/800/1000"
+    img: "/1.jpg"
   },
   {
     title: "Continuous Learning",
     desc: "Maintaining an unyielding curiosity, always seeking new perspectives to refine strategy and vision.",
-    img: "https://picsum.photos/seed/learning2/800/1000"
+    img: "/about.jpg"
   }
 ];
 

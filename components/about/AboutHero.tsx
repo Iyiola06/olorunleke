@@ -8,13 +8,13 @@ export function AboutHero() {
   const headingText = "The Journey Behind The Vision".split(" ");
 
   return (
-    <section className="relative min-h-[85vh] flex items-center px-6 md:px-12 lg:px-0 overflow-hidden">
+    <section className="relative min-h-[85vh] flex items-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 md:px-12 lg:px-16 overflow-hidden">
       <div className="absolute inset-0 z-0 bg-ivory pointer-events-none" />
 
-      <div className="relative z-10 w-full max-w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-12 items-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         
         {/* Left Content */}
-        <div className="lg:col-span-6 flex flex-col items-start pt-10 lg:pt-0">
+        <div className="lg:col-span-6 flex flex-col items-start">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -67,7 +67,7 @@ export function AboutHero() {
             <div className="relative w-full h-full rounded-[24px] overflow-hidden">
               <div className="absolute inset-0 bg-noise opacity-20 mix-blend-overlay z-10 pointer-events-none" />
               <Image
-                src={portraitImage}
+                src="/about.jpg"
                 alt="Olorunleke Ojuolape - Founder Profile"
                 fill
                 className="object-cover"

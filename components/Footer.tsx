@@ -13,6 +13,14 @@ export function Footer() {
         </div>
 
         <div className="flex space-x-8">
+          <a 
+            href="https://www.instagram.com/olorunleke___/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors"
+          >
+            Instagram
+          </a>
           <a href="#" className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors">
             LinkedIn
           </a>

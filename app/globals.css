@@ -26,6 +26,11 @@
   }
 }
 
-html, body {
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
   @apply bg-ivory text-dark;
 }

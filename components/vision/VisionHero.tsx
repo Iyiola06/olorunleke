@@ -7,7 +7,7 @@ export function VisionHero() {
   const headingText = ["Building Today.", "Creating Tomorrow."];
 
   return (
-    <section className="relative h-[90vh] min-h-[700px] flex flex-col items-center justify-center px-6 overflow-hidden bg-ivory">
+    <section className="relative min-h-[85vh] flex flex-col items-center justify-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 overflow-hidden bg-ivory">
       
       {/* Subtle Animated Lighting */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden flex items-center justify-center">
@@ -33,7 +33,7 @@ export function VisionHero() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center text-center mt-20">
+      <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center text-center">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}

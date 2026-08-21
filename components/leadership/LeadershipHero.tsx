@@ -74,8 +74,8 @@ export function LeadershipHero() {
               <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:animate-[sweep_2s_ease-in-out] z-20 pointer-events-none" />
               
               <Image
-                src={portraitImage}
-                alt="Executive Portrait"
+                src="/1.jpg"
+                alt="Executive Portrait - Olorunleke Ojuolape"
                 fill
                 className="object-cover"
                 priority

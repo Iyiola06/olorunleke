@@ -8,7 +8,7 @@ export function PortfolioHero() {
   const headingText = ["Building Ventures", "That Matter"];
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] flex items-center px-6 overflow-hidden bg-cream">
+    <section className="relative min-h-[85vh] flex items-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 md:px-12 lg:px-16 overflow-hidden bg-cream">
       
       {/* Background with low opacity architectural texture */}
       <div className="absolute inset-0 z-0 bg-cream">
@@ -26,7 +26,7 @@ export function PortfolioHero() {
       <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         {/* Left: Content */}
-        <div className="flex flex-col items-start pt-20 lg:pt-0">
+        <div className="flex flex-col items-start">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
