@@ -17,13 +17,43 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Olorunleke Ojuolape | Founder & Strategic Leader',
-  description: 'The digital headquarters of Olorunleke Ojuolape, Founder, Entrepreneur, and Real Estate Professional.',
+  title: {
+    default: 'Olorunleke Ojuolape | Founder & Strategic Leader',
+    template: '%s | Olorunleke Ojuolape (Leke)',
+  },
+  description: 'The digital headquarters of Olorunleke Ojuolape (Leke Ojuolape), a visionary Founder, Entrepreneur, and Strategic Real Estate Professional.',
+  keywords: [
+    'Olorunleke Ojuolape',
+    'Leke Ojuolape',
+    'Olorunleke',
+    'Ojuolape',
+    'Leke',
+    'Founder',
+    'Entrepreneur',
+    'Business Leader',
+    'Strategic Thinker',
+    'Real Estate Professional',
+    'Nigeria',
+    'Africa Business',
+    'Venture Builder',
+    'Investment'
+  ],
+  authors: [{ name: 'Olorunleke Ojuolape' }],
+  creator: 'Olorunleke Ojuolape',
+  publisher: 'Olorunleke Ojuolape',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: 'https://olorunlekeojuolape.com',
+  },
   openGraph: {
-    title: 'Olorunleke Ojuolape | Founder',
-    description: 'Founder, Entrepreneur, and Real Estate Professional.',
+    title: 'Olorunleke Ojuolape | Founder, Entrepreneur & Leader',
+    description: 'Explore the ventures, vision, and leadership of Olorunleke (Leke) Ojuolape. Dedicated to building sustainable value and creating opportunities.',
     type: 'website',
-    url: 'https://olorunlekeojuolape.com', // Example URL
+    url: 'https://olorunlekeojuolape.com', // Replace with the actual URL
     siteName: 'Olorunleke Ojuolape',
     images: [
       {
@@ -37,7 +67,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Olorunleke Ojuolape | Founder',
-    description: 'Founder, Entrepreneur, and Real Estate Professional.',
+    description: 'Founder, Entrepreneur, and Strategic Leader.',
     images: ['/logo1.jpg'],
   },
   icons: {
@@ -59,10 +89,44 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Olorunleke Ojuolape",
-              "jobTitle": ["Founder", "Entrepreneur", "Real Estate Professional"],
-              "url": "https://olorunlekeojuolape.com"
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://olorunlekeojuolape.com/#website",
+                  "url": "https://olorunlekeojuolape.com/",
+                  "name": "Olorunleke Ojuolape",
+                  "alternateName": ["Leke Ojuolape", "Leke"],
+                  "description": "The digital headquarters of Olorunleke Ojuolape (Leke Ojuolape), a visionary Founder, Entrepreneur, and Strategic Real Estate Professional."
+                },
+                {
+                  "@type": "ProfilePage",
+                  "@id": "https://olorunlekeojuolape.com/#webpage",
+                  "url": "https://olorunlekeojuolape.com/",
+                  "name": "Olorunleke Ojuolape | Founder & Strategic Leader",
+                  "isPartOf": { "@id": "https://olorunlekeojuolape.com/#website" },
+                  "about": { "@id": "https://olorunlekeojuolape.com/#person" }
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://olorunlekeojuolape.com/#person",
+                  "name": "Olorunleke Ojuolape",
+                  "givenName": "Olorunleke",
+                  "familyName": "Ojuolape",
+                  "additionalName": "Leke",
+                  "alternateName": ["Leke Ojuolape", "Olorunleke", "Leke"],
+                  "jobTitle": ["Founder", "Entrepreneur", "Real Estate Professional", "Strategic Leader", "Venture Builder", "Investor"],
+                  "url": "https://olorunlekeojuolape.com",
+                  "image": "https://olorunlekeojuolape.com/logo1.jpg",
+                  "description": "Olorunleke Ojuolape (Leke Ojuolape) is a visionary Founder, Entrepreneur, and Strategic Real Estate Professional based in Nigeria, dedicated to building sustainable value across Africa and beyond.",
+                  "nationality": "Nigerian",
+                  "knowsAbout": ["Real Estate", "Venture Building", "Entrepreneurship", "Strategic Leadership", "Business Development", "Investment"],
+                  "sameAs": [
+                    "https://www.instagram.com/olorunleke___/",
+                    "https://www.linkedin.com/in/olorunleke-ojuolape"
+                  ],
+                  "mainEntityOfPage": { "@id": "https://olorunlekeojuolape.com/#webpage" }
+                }
+              ]
             })
           }}
         />

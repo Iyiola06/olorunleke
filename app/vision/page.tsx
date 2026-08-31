@@ -8,11 +8,11 @@ import { VisionCTA } from '@/components/vision/VisionCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
-  title: 'Vision & Leadership Philosophy | Olorunleke Ojuolape',
-  description: 'Explore the vision, principles, and leadership philosophy of Olorunleke Ojuolape.',
+  title: 'Vision & Strategic Philosophy | Leke Ojuolape',
+  description: 'Explore the strategic vision, principles, and leadership philosophy of Olorunleke Ojuolape (Leke Ojuolape).',
   openGraph: {
-    title: 'Vision & Leadership Philosophy | Olorunleke Ojuolape',
-    description: 'Explore the vision, principles, and leadership philosophy of Olorunleke Ojuolape.',
+    title: 'Vision & Strategic Philosophy | Leke Ojuolape',
+    description: 'Explore the strategic vision, principles, and leadership philosophy of Olorunleke Ojuolape (Leke Ojuolape).',
     type: 'website',
   },
 };

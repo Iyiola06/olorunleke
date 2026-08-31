@@ -35,6 +35,16 @@ export function Footer() {
         <p>&copy; {new Date().getFullYear()} Olorunleke Ojuolape. All rights reserved.</p>
         <p className="mt-4 md:mt-0">Designed for legacy.</p>
       </div>
+
+      {/* Visually hidden semantic text for extreme SEO dominance without compromising design */}
+      <div className="sr-only">
+        <h2>Olorunleke Ojuolape (Leke Ojuolape)</h2>
+        <p>
+          The official website of Olorunleke Ojuolape, widely known as Leke Ojuolape or simply Olorunleke. 
+          Leke Ojuolape is a visionary Founder, Entrepreneur, and Strategic Real Estate Professional driving value and innovation.
+          Whether you search for Olorunleke, Ojuolape, or Leke Ojuolape, you have arrived at his primary digital headquarters.
+        </p>
+      </div>
     </footer>
   );
 }

@@ -8,11 +8,11 @@ import { FutureOpportunitiesCTA } from '@/components/portfolio/FutureOpportuniti
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
-  title: 'Ventures & Business Portfolio | Olorunleke Ojuolape',
-  description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape.',
+  title: 'Ventures & Business Portfolio | Leke Ojuolape',
+  description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape (Leke Ojuolape).',
   openGraph: {
-    title: 'Ventures & Business Portfolio | Olorunleke Ojuolape',
-    description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape.',
+    title: 'Ventures & Business Portfolio | Leke Ojuolape',
+    description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape (Leke Ojuolape).',
     type: 'website',
   },
 };
