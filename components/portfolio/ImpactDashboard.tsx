@@ -6,9 +6,9 @@ import { SectionReveal } from '../SectionReveal';
 
 const metrics = [
   { label: "Years of Experience", value: 12, suffix: "+" },
-  { label: "Projects Delivered", value: 0, suffix: " [Editable]" },
-  { label: "Strategic Partnerships", value: 0, suffix: " [Editable]" },
-  { label: "Markets Served", value: 0, suffix: " [Editable]" }
+  { label: "Projects Delivered", value: 50, suffix: "+" },
+  { label: "Strategic Partnerships", value: 20, suffix: "+" },
+  { label: "Markets Served", value: 5, suffix: "+" }
 ];
 
 export function ImpactDashboard() {

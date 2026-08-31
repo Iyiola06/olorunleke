@@ -35,24 +35,16 @@ export function TestimonialFramework() {
           </div>
           
           <p className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark leading-[1.3] mb-16 relative z-10 max-w-4xl pt-8">
-            [Editable testimonial quotation. A powerful statement about character, execution, or the experience of building together.]
+            Success in real estate is built on a foundation of unyielding integrity, strategic foresight, and a commitment to creating lasting value for communities.
           </p>
 
           <div className="flex flex-col items-center">
-            {/* Image Placeholder */}
-            <div className="w-16 h-16 rounded-full bg-dark/5 border border-dark/10 mb-6 overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <svg className="w-6 h-6 text-dark/20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </div>
-            </div>
             
             <h4 className="font-sans text-sm uppercase tracking-[0.15em] font-bold text-dark mb-2">
-              [Name Placeholder]
+              Olorunleke Ojuolape
             </h4>
             <p className="font-sans text-sm text-muted font-light">
-              [Role Placeholder] <span className="mx-2 text-gold/50">|</span> [Company Placeholder]
+              Founder & CEO <span className="mx-2 text-gold/50">|</span> Mindfire Homes
             </p>
           </div>
           

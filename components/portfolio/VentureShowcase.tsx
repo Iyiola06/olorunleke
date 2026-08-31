@@ -50,19 +50,19 @@ export function VentureShowcase() {
             className="absolute bottom-6 left-6 right-6 md:bottom-12 md:left-12 md:w-[500px] md:right-auto bg-white/10 backdrop-blur-[40px] border border-white/30 p-8 md:p-10 rounded-[32px] shadow-[0_20px_50px_rgba(24,24,24,0.2)] flex flex-col"
           >
             <span className="font-sans text-[10px] uppercase tracking-[0.25em] font-semibold text-gold/80 mb-3">
-              [Editable Category Placeholder]
+              Real Estate Development
             </span>
             
             <h3 className="font-serif text-3xl md:text-4xl text-white mb-4">
-              [Project Name Placeholder]
+              Mindfire Homes
             </h3>
             
             <p className="font-sans text-sm md:text-base text-white/70 font-light leading-relaxed mb-8">
-              [Editable overview text highlighting the strategic importance, scope, and impact of the featured venture. This area is designed to accommodate multiple lines of description.]
+              Founder and CEO of MindfireHomes.com, leading the strategic vision and execution of premier real estate developments and sustainable value creation.
             </p>
             
             <div className="flex items-center justify-between mt-auto pt-6 border-t border-white/20">
-              <span className="font-sans text-xs text-white/50 tracking-widest uppercase">Impact: [Metric Placeholder]</span>
+              <span className="font-sans text-xs text-white/50 tracking-widest uppercase">Role: Founder & CEO</span>
               
               <button className="text-white hover:text-gold transition-colors duration-300 font-sans text-xs uppercase tracking-widest font-semibold flex items-center space-x-2">
                 <span>Explore Details</span>

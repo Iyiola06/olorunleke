@@ -108,11 +108,11 @@ export function ContactOptions() {
               </p>
               
               <p className="font-sans text-sm text-dark mb-8 tracking-wider font-light">
-                [email placeholder]
+                ogunjobiniyiola906@gmail.com
               </p>
               
               <a
-                href="mailto:placeholder@example.com"
+                href="mailto:ogunjobiniyiola906@gmail.com"
                 className="mt-auto px-6 py-3 w-full border border-dark/20 rounded-full font-sans text-xs uppercase tracking-widest font-semibold text-dark hover:bg-dark hover:text-white transition-colors duration-300"
               >
                 Send Email
