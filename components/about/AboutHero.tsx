@@ -80,7 +80,7 @@ export function AboutHero() {
             <motion.div 
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -left-6 md:-left-12 bottom-12 z-20 bg-white/60 backdrop-blur-xl border border-white/50 shadow-[0_8px_32px_rgba(24,24,24,0.1)] rounded-full px-6 py-3 flex items-center space-x-3"
+              className="hidden md:flex absolute -left-6 md:-left-12 bottom-12 z-20 bg-white/60 backdrop-blur-xl border border-white/50 shadow-[0_8px_32px_rgba(24,24,24,0.1)] rounded-full px-6 py-3 items-center space-x-3"
             >
               <div className="w-2 h-2 rounded-full bg-gold" />
               <span className="font-sans text-xs uppercase tracking-[0.2em] font-semibold text-dark">

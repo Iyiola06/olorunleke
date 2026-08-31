@@ -102,19 +102,19 @@ export function FounderHero() {
             <FloatingCard 
               title="Vision" 
               description="Creating opportunities through strategic thinking."
-              className="-left-4 sm:-left-8 lg:-left-12 top-10"
+              className="hidden md:block -left-4 sm:-left-8 lg:-left-12 top-10"
               delay={0}
             />
             <FloatingCard 
               title="Focus" 
               description="Building sustainable value."
-              className="-right-4 sm:-right-8 lg:-right-10 top-1/2 -translate-y-1/2"
+              className="hidden md:block -right-4 sm:-right-8 lg:-right-10 top-1/2 -translate-y-1/2"
               delay={2}
             />
             <FloatingCard 
               title="Legacy" 
               description="Impact beyond business."
-              className="-left-4 sm:-left-8 lg:-left-12 bottom-8"
+              className="hidden md:block -left-4 sm:-left-8 lg:-left-12 bottom-8"
               delay={4}
             />
           </div>
