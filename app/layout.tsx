@@ -49,6 +49,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://olorunlekeojuolape.com',
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: 'Olorunleke Ojuolape | Founder, Entrepreneur & Leader',
     description: 'Explore the ventures, vision, and leadership of Olorunleke (Leke) Ojuolape. Dedicated to building sustainable value and creating opportunities.',
