@@ -2,7 +2,7 @@
 
 import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
-import { MessageCircle } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export function ContactCTA() {
   return (
@@ -22,21 +22,19 @@ export function ContactCTA() {
           </h2>
           
           <p className="font-sans text-lg md:text-xl text-muted font-light mb-14 max-w-2xl mx-auto leading-relaxed">
-            Reach out directly via WhatsApp to begin a conversation about future possibilities.
+            Reach out directly via email to begin a conversation about future possibilities.
           </p>
 
           <motion.a
-            href="https://wa.me/2347035647699?text=Hello%20Olorunleke,%20I%20would%20like%20to%20connect%20and%20explore%20opportunities."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:ogunjobiniyiola906@gmail.com?subject=Inquiry%20for%20Olorunleke%20Ojuolape"
             whileHover={{ y: -3 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
             className="group relative inline-flex items-center justify-center space-x-3 px-10 py-5 font-sans text-sm font-semibold tracking-widest uppercase bg-gold text-white rounded-full overflow-hidden hover:shadow-[0_20px_40px_rgba(200,169,106,0.3)] transition-all duration-500"
           >
             {/* Light sweep on hover */}
             <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[sweep_1.5s_ease-in-out_infinite]" />
-            <MessageCircle className="relative z-10 w-5 h-5 text-white" />
-            <span className="relative z-10">Start A WhatsApp Conversation</span>
+            <Mail className="relative z-10 w-5 h-5 text-white" />
+            <span className="relative z-10">Send An Email</span>
           </motion.a>
         </SectionReveal>
 
@@ -44,3 +42,4 @@ export function ContactCTA() {
     </section>
   );
 }
+

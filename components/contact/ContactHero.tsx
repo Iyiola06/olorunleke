@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { MessageCircle } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export function ContactHero() {
   const headingText = "Let's Build Something Meaningful.";
@@ -74,15 +74,13 @@ export function ContactHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1, ease: [0.16, 1, 0.3, 1] }}
-          href="https://wa.me/2347035647699?text=Hello%20Olorunleke,%20I%20would%20like%20to%20discuss%20a%20potential%20partnership%20opportunity."
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:ogunjobiniyiola906@gmail.com?subject=Strategic%20Partnership%20Enquiry"
           whileHover={{ y: -3 }}
           className="group relative inline-flex items-center justify-center space-x-3 px-10 py-5 font-sans text-sm font-semibold tracking-widest uppercase bg-dark text-white rounded-full overflow-hidden hover:shadow-[0_20px_40px_rgba(24,24,24,0.2)] transition-all duration-500"
         >
           <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent group-hover:animate-[sweep_1.5s_ease-in-out_infinite]" />
-          <MessageCircle className="relative z-10 w-5 h-5 text-white/90 group-hover:text-[#25D366] transition-colors duration-300" />
-          <span className="relative z-10">Send A Message</span>
+          <Mail className="relative z-10 w-5 h-5 text-white/90 group-hover:text-gold transition-colors duration-300" />
+          <span className="relative z-10">Send An Email</span>
         </motion.a>
 
       </div>

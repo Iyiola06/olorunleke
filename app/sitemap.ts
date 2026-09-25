@@ -18,13 +18,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/portfolio`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/leadership`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/vision`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/portfolio`,
+      url: `${baseUrl}/insights`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -37,3 +49,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
+
