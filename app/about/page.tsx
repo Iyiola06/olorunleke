@@ -8,6 +8,7 @@ import { AboutCTA } from '@/components/about/AboutCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/about' },
   title: 'About Leke Ojuolape',
   description: 'Learn about Olorunleke Ojuolape (Leke Ojuolape): the journey, philosophy, and strategic vision of a leading Founder and Real Estate Professional.',
 };

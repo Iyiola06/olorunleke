@@ -7,9 +7,11 @@ import { InsightsCTA } from '@/components/insights/InsightsCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/insights' },
   title: 'Founder Insights | Olorunleke Ojuolape',
   description: 'Explore leadership insights, business perspectives, and strategic thinking from Olorunleke Ojuolape.',
   openGraph: {
+    url: '/insights',
     title: 'Founder Insights | Olorunleke Ojuolape',
     description: 'Explore leadership insights, business perspectives, and strategic thinking from Olorunleke Ojuolape.',
     type: 'website',

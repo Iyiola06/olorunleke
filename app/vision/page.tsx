@@ -8,9 +8,11 @@ import { VisionCTA } from '@/components/vision/VisionCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/vision' },
   title: 'Vision & Strategic Philosophy | Leke Ojuolape',
   description: 'Explore the strategic vision, principles, and leadership philosophy of Olorunleke Ojuolape (Leke Ojuolape).',
   openGraph: {
+    url: '/vision',
     title: 'Vision & Strategic Philosophy | Leke Ojuolape',
     description: 'Explore the strategic vision, principles, and leadership philosophy of Olorunleke Ojuolape (Leke Ojuolape).',
     type: 'website',

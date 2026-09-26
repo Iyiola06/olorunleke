@@ -21,10 +21,15 @@ export function Footer() {
           >
             Instagram
           </a>
-          <a href="#" className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors">
+          <a
+            href="https://www.linkedin.com/in/olorunleke-ojuolape"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors"
+          >
             LinkedIn
           </a>
-          <a href="mailto:contact@olorunlekeojuolape.com" className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors">
+          <a href="mailto:ogunjobiniyiola906@gmail.com" className="font-sans text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors">
             Email
           </a>
         </div>
@@ -34,16 +39,6 @@ export function Footer() {
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-ivory flex flex-col md:flex-row justify-between items-center text-[10px] text-muted tracking-widest uppercase font-medium">
         <p>&copy; {new Date().getFullYear()} Olorunleke Ojuolape. All rights reserved.</p>
         <p className="mt-4 md:mt-0">Designed for legacy.</p>
-      </div>
-
-      {/* Visually hidden semantic text for extreme SEO dominance without compromising design */}
-      <div className="sr-only">
-        <h2>Olorunleke Ojuolape (Leke Ojuolape)</h2>
-        <p>
-          The official website of Olorunleke Ojuolape, widely known as Leke Ojuolape or simply Olorunleke. 
-          Leke Ojuolape is a visionary Founder, Entrepreneur, and Strategic Real Estate Professional driving value and innovation.
-          Whether you search for Olorunleke, Ojuolape, or Leke Ojuolape, you have arrived at his primary digital headquarters.
-        </p>
       </div>
     </footer>
   );

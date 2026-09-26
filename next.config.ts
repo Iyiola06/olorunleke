@@ -19,6 +19,16 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Keep the preview domain out of search results even if it serves a production build.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'olorunleke\\.minfirehomes\\.com' }],
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+    ];
+  },
   output: 'standalone',
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {

@@ -1,7 +1,10 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL, IS_INDEXABLE } from '@/lib/site';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.olorunlekeojuolape.com';
+  if (!IS_INDEXABLE) {
+    return { rules: [{ userAgent: '*', disallow: '/' }] };
+  }
 
   return {
     rules: [
@@ -18,6 +21,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       }
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

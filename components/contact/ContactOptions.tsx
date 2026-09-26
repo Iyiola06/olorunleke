@@ -2,7 +2,7 @@
 
 import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
-import { Mail, Linkedin, Instagram, Twitter, Briefcase } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Briefcase } from 'lucide-react';
 import Link from 'next/link';
 
 export function ContactOptions() {
@@ -116,9 +116,6 @@ export function ContactOptions() {
                 >
                   <Instagram className="w-5 h-5 text-dark/50 group-hover/icon:text-gold transition-colors duration-300" />
                 </a>
-                <Link href="#" aria-label="Twitter" className="w-12 h-12 rounded-full bg-white/50 backdrop-blur-md border border-dark/5 flex items-center justify-center hover:-translate-y-1 hover:bg-white hover:border-gold/50 transition-all duration-300 group/icon shadow-sm">
-                  <Twitter className="w-5 h-5 text-dark/50 group-hover/icon:text-gold transition-colors duration-300" />
-                </Link>
               </div>
               
             </div>

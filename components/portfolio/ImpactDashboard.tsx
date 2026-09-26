@@ -45,11 +45,14 @@ export function ImpactDashboard() {
 function MetricCard({ metric, index }: { metric: any, index: number }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
-  const [count, setCount] = useState(0);
+  // Start at the real value so server HTML (crawlers, slow devices, no-JS) shows real numbers.
+  const [count, setCount] = useState<number>(metric.value);
 
   useEffect(() => {
-    if (isInView && metric.value > 0) {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (isInView && metric.value > 0 && !reduceMotion) {
       let start = 0;
+      setCount(0);
       const end = metric.value;
       const duration = 2000;
       const incrementTime = (duration / end);

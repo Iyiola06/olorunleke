@@ -25,7 +25,7 @@ export function VisionCTA() {
           </p>
 
           <motion.a
-            href="#contact"
+            href="/contact"
             whileHover={{ y: -3 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
             className="group relative inline-flex items-center justify-center px-10 py-5 font-sans text-sm font-semibold tracking-widest uppercase bg-white/60 backdrop-blur-xl border border-white/80 text-dark rounded-full overflow-hidden hover:bg-white hover:border-gold hover:shadow-[0_20px_40px_rgba(200,169,106,0.15)] transition-all duration-500"

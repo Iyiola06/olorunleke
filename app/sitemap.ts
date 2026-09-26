@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Using a placeholder domain or the environment variable if set.
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.olorunlekeojuolape.com';
+  const baseUrl = SITE_URL;
 
   return [
     {

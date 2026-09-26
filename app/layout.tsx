@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import { Navigation } from '@/components/Navigation';
+import { SITE_URL, IS_INDEXABLE, LINKEDIN_URL, INSTAGRAM_URL } from '@/lib/site';
 import './globals.css';
 
 const inter = Inter({
@@ -16,6 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Olorunleke Ojuolape | Founder & Strategic Leader',
     template: '%s | Olorunleke Ojuolape (Leke)',
@@ -46,14 +48,14 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: 'https://olorunlekeojuolape.com',
+    canonical: '/',
   },
   robots: {
-    index: true,
-    follow: true,
+    index: IS_INDEXABLE,
+    follow: IS_INDEXABLE,
     googleBot: {
-      index: true,
-      follow: true,
+      index: IS_INDEXABLE,
+      follow: IS_INDEXABLE,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
@@ -63,7 +65,7 @@ export const metadata: Metadata = {
     title: 'Olorunleke Ojuolape | Founder, Entrepreneur & Leader',
     description: 'Explore the ventures, vision, and leadership of Olorunleke (Leke) Ojuolape. Dedicated to building sustainable value and creating opportunities.',
     type: 'website',
-    url: 'https://olorunlekeojuolape.com', // Replace with the actual URL
+    url: '/',
     siteName: 'Olorunleke Ojuolape',
     images: [
       {
@@ -102,39 +104,39 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://olorunlekeojuolape.com/#website",
-                  "url": "https://olorunlekeojuolape.com/",
+                  "@id": `${SITE_URL}/#website`,
+                  "url": `${SITE_URL}/`,
                   "name": "Olorunleke Ojuolape",
                   "alternateName": ["Leke Ojuolape", "Leke"],
                   "description": "The digital headquarters of Olorunleke Ojuolape (Leke Ojuolape), a visionary Founder, Entrepreneur, and Strategic Real Estate Professional."
                 },
                 {
                   "@type": "ProfilePage",
-                  "@id": "https://olorunlekeojuolape.com/#webpage",
-                  "url": "https://olorunlekeojuolape.com/",
+                  "@id": `${SITE_URL}/#webpage`,
+                  "url": `${SITE_URL}/`,
                   "name": "Olorunleke Ojuolape | Founder & Strategic Leader",
-                  "isPartOf": { "@id": "https://olorunlekeojuolape.com/#website" },
-                  "about": { "@id": "https://olorunlekeojuolape.com/#person" }
+                  "isPartOf": { "@id": `${SITE_URL}/#website` },
+                  "about": { "@id": `${SITE_URL}/#person` }
                 },
                 {
                   "@type": "Person",
-                  "@id": "https://olorunlekeojuolape.com/#person",
+                  "@id": `${SITE_URL}/#person`,
                   "name": "Olorunleke Ojuolape",
                   "givenName": "Olorunleke",
                   "familyName": "Ojuolape",
                   "additionalName": "Leke",
                   "alternateName": ["Leke Ojuolape", "Olorunleke", "Leke"],
                   "jobTitle": ["Founder", "Entrepreneur", "Real Estate Professional", "Strategic Leader", "Venture Builder", "Investor"],
-                  "url": "https://olorunlekeojuolape.com",
-                  "image": "https://olorunlekeojuolape.com/logo1.jpg",
+                  "url": SITE_URL,
+                  "image": `${SITE_URL}/logo1.jpg`,
                   "description": "Olorunleke Ojuolape (Leke Ojuolape) is a visionary Founder, Entrepreneur, and Strategic Real Estate Professional based in Nigeria, dedicated to building sustainable value across Africa and beyond.",
                   "nationality": "Nigerian",
                   "knowsAbout": ["Real Estate", "Venture Building", "Entrepreneurship", "Strategic Leadership", "Business Development", "Investment"],
                   "sameAs": [
-                    "https://www.instagram.com/olorunleke___/",
-                    "https://www.linkedin.com/in/olorunleke-ojuolape"
+                    INSTAGRAM_URL,
+                    LINKEDIN_URL
                   ],
-                  "mainEntityOfPage": { "@id": "https://olorunlekeojuolape.com/#webpage" }
+                  "mainEntityOfPage": { "@id": `${SITE_URL}/#webpage` }
                 }
               ]
             })

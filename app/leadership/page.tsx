@@ -8,9 +8,11 @@ import { LeadershipCTA } from '@/components/leadership/LeadershipCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/leadership' },
   title: 'Leadership & Impact | Olorunleke Ojuolape',
   description: 'Discover the leadership philosophy, values, and impact-driven approach of Olorunleke Ojuolape.',
   openGraph: {
+    url: '/leadership',
     title: 'Leadership & Impact | Olorunleke Ojuolape',
     description: 'Discover the leadership philosophy, values, and impact-driven approach of Olorunleke Ojuolape.',
     type: 'website',

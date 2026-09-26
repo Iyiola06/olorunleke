@@ -5,9 +5,11 @@ import { ContactCTA } from '@/components/contact/ContactCTA';
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/contact' },
   title: 'Contact | Leke Ojuolape',
   description: 'Connect directly with Olorunleke Ojuolape (Leke Ojuolape) to explore partnerships, business opportunities, collaborations, or strategic conversations.',
   openGraph: {
+    url: '/contact',
     title: 'Contact | Leke Ojuolape',
     description: 'Connect directly with Olorunleke Ojuolape (Leke Ojuolape) to explore partnerships, business opportunities, collaborations, or strategic conversations.',
     type: 'website',

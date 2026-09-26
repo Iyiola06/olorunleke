@@ -25,9 +25,8 @@ export function SocialFollow() {
         </motion.h2>
 
         <div className="flex flex-wrap justify-center gap-6">
-          <SocialPill name="LinkedIn" href="#" delay={0.1} />
+          <SocialPill name="LinkedIn" href="https://www.linkedin.com/in/olorunleke-ojuolape" external delay={0.1} />
           <SocialPill name="Instagram" href="https://www.instagram.com/olorunleke___/" external delay={0.2} />
-          <SocialPill name="Twitter/X" href="#" delay={0.3} />
         </div>
 
       </div>

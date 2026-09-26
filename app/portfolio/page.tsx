@@ -8,9 +8,11 @@ import { FutureOpportunitiesCTA } from '@/components/portfolio/FutureOpportuniti
 import { Footer } from '@/components/Footer';
 
 export const metadata = {
+  alternates: { canonical: '/portfolio' },
   title: 'Ventures & Business Portfolio | Leke Ojuolape',
   description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape (Leke Ojuolape).',
   openGraph: {
+    url: '/portfolio',
     title: 'Ventures & Business Portfolio | Leke Ojuolape',
     description: 'Explore the ventures, business philosophy, partnerships, and opportunities connected with Olorunleke Ojuolape (Leke Ojuolape).',
     type: 'website',
