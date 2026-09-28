@@ -11,5 +11,5 @@ export const CONTENT_UPDATED = '2026-09-28';
 
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/olorunleke-ojuolape';
 export const INSTAGRAM_URL = 'https://www.instagram.com/olorunleke___/';
-export const CONTACT_EMAIL = 'ogunjobiniyiola906@gmail.com';
+export const CONTACT_EMAIL = 'lekejay@yahoo.co.uk';
 export const MINDFIRE_URL = 'https://mindfirehomes.com';
