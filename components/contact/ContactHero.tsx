@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import { Mail } from 'lucide-react';
+import { CONTACT_EMAIL } from '@/lib/site';
 
 export function ContactHero() {
   const headingText = "Let's Build Something Meaningful.";
@@ -67,14 +68,14 @@ export function ContactHero() {
           transition={{ duration: 1.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-muted max-w-[650px] font-sans font-light leading-relaxed mb-12"
         >
-          Whether exploring partnerships, business opportunities, collaborations, or strategic conversations, connect directly and begin a meaningful conversation.
+          Investing in land, buying a home, asking about Skylands, or exploring a joint venture with Mindfire Homes and Investments &mdash; start the conversation here.
         </motion.p>
         
         <motion.a
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1, ease: [0.16, 1, 0.3, 1] }}
-          href="mailto:ogunjobiniyiola906@gmail.com?subject=Strategic%20Partnership%20Enquiry"
+          href={`mailto:${CONTACT_EMAIL}?subject=Enquiry%20for%20Olorunleke%20Ojuolape`}
           whileHover={{ y: -3 }}
           className="group relative inline-flex items-center justify-center space-x-3 px-10 py-5 font-sans text-sm font-semibold tracking-widest uppercase bg-dark text-white rounded-full overflow-hidden hover:shadow-[0_20px_40px_rgba(24,24,24,0.2)] transition-all duration-500"
         >

@@ -5,10 +5,10 @@ import { useRef, useState } from 'react';
 import { SectionReveal } from '../SectionReveal';
 
 const frameworkSteps = [
-  { num: "01", title: "Understand", desc: "Analyse opportunities deeply." },
-  { num: "02", title: "Strategise", desc: "Develop sustainable approaches." },
-  { num: "03", title: "Execute", desc: "Move with discipline." },
-  { num: "04", title: "Improve", desc: "Continuously evolve." }
+  { num: "01", title: "Study", desc: "Read the land like a geologist: formation, structure, potential." },
+  { num: "02", title: "Verify", desc: "Due diligence and documentation before any commitment." },
+  { num: "03", title: "Negotiate", desc: "Structure fair, durable deals for every party." },
+  { num: "04", title: "Execute", desc: "Deliver with precision, then keep improving." }
 ];
 
 export function StrategyTimeline() {

@@ -12,16 +12,16 @@ export function AboutCTA() {
       <div className="max-w-4xl mx-auto relative z-10 text-center flex flex-col items-center">
         <SectionReveal>
           <h2 className="font-serif text-5xl md:text-6xl text-dark mb-8 leading-tight">
-            Every Vision Begins With <br className="hidden md:block"/> 
-            <span className="italic text-gold">A Decision.</span>
+            Welcome To My World. <br className="hidden md:block"/>
+            <span className="italic text-gold">Welcome To Mindfire.</span>
           </h2>
-          
+
           <p className="font-sans text-lg md:text-xl text-muted font-light mb-12 max-w-xl mx-auto leading-relaxed">
-            Explore opportunities, partnerships, and ideas for creating meaningful impact.
+            This is more than my business. This is my memoir in motion.
           </p>
 
-          <PremiumButton variant="secondary" className="px-10 py-5 text-sm bg-ivory/50">
-            Discuss A Partnership
+          <PremiumButton variant="secondary" href="/contact" className="px-10 py-5 text-sm bg-ivory/50">
+            Start A Conversation
           </PremiumButton>
         </SectionReveal>
       </div>

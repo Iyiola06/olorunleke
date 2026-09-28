@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
 
 export function ManifestoSection() {
-  const statement = "Great businesses are built through clarity of purpose, disciplined execution, and the ability to create lasting value.";
+  const statement = "Mindfire was created with fire in its name for a reason: to ignite a new standard of modern living in Nigeria.";
   const words = statement.split(" ");
 
   const container = {

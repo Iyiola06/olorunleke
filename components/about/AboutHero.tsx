@@ -2,10 +2,9 @@
 
 import { motion } from 'motion/react';
 import Image from 'next/image';
-import portraitImage from '../../src/assets/images/premium_founder_profile_1787320535739.jpg';
 
 export function AboutHero() {
-  const headingText = "The Journey Behind The Vision".split(" ");
+  const headingText = "From The Earth To Estates".split(" ");
 
   return (
     <section className="relative min-h-[85vh] flex items-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 md:px-12 lg:px-16 overflow-hidden">
@@ -23,7 +22,7 @@ export function AboutHero() {
           >
             <div className="w-8 h-[1px] bg-gold" />
             <span className="uppercase tracking-[0.25em] text-[10px] md:text-xs font-bold text-dark">
-              ABOUT THE FOUNDER
+              MY STORY
             </span>
           </motion.div>
           
@@ -52,7 +51,7 @@ export function AboutHero() {
             transition={{ duration: 1.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-xl md:text-2xl text-muted max-w-[600px] font-sans font-light leading-relaxed"
           >
-            Every meaningful achievement begins with a vision, strengthened by discipline and transformed through action.
+            My story didn&apos;t start with buildings. It started with the ground beneath them.
           </motion.p>
         </div>
 
@@ -68,7 +67,7 @@ export function AboutHero() {
               <div className="absolute inset-0 bg-noise opacity-20 mix-blend-overlay z-10 pointer-events-none" />
               <Image
                 src="/about.jpg"
-                alt="Olorunleke Ojuolape - Founder Profile"
+                alt="Portrait of Olorunleke (Leke) Ojuolape, geologist and real estate entrepreneur"
                 fill
                 className="object-cover"
                 priority
@@ -84,7 +83,7 @@ export function AboutHero() {
             >
               <div className="w-2 h-2 rounded-full bg-gold" />
               <span className="font-sans text-xs uppercase tracking-[0.2em] font-semibold text-dark">
-                Founder Profile
+                Geologist &middot; MD/CEO
               </span>
             </motion.div>
           </motion.div>

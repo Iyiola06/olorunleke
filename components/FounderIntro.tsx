@@ -5,7 +5,7 @@ import { SectionReveal } from './SectionReveal';
 import { GlassCard } from './GlassCard';
 
 export function FounderIntro() {
-  const statement = "Great businesses are built by people who see opportunities before others do.";
+  const statement = "While others saw just land, I saw formation, structure, potential.";
   const words = statement.split(" ");
 
   const container = {
@@ -22,16 +22,16 @@ export function FounderIntro() {
   };
 
   const cards = [
-    { title: "VISION", desc: "Seeing possibilities beyond the present." },
-    { title: "EXECUTION", desc: "Turning strategy into measurable results." },
-    { title: "LEGACY", desc: "Creating value that lasts." }
+    { title: "GEOLOGY", desc: "Trained to read what lies beneath — and what it can hold up." },
+    { title: "MINDFIRE", desc: "A new standard of modern living in Nigeria." },
+    { title: "SKYLANDS", desc: "Elevated living in Abuja, where investment meets legacy." }
   ];
 
   return (
     <section className="relative py-32 px-6 bg-white overflow-hidden">
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center">
         
-        <motion.div
+        <motion.h2
           variants={container}
           initial="hidden"
           whileInView="show"
@@ -43,11 +43,11 @@ export function FounderIntro() {
               {word}
             </motion.span>
           ))}
-        </motion.div>
+        </motion.h2>
 
         <SectionReveal delay={0.4} className="mb-24">
           <p className="font-sans font-light text-muted text-lg max-w-2xl mx-auto leading-relaxed">
-            As a founder and strategic business leader, Olorunleke Ojuolape focuses on building valuable ventures, creating opportunities, and delivering long-term impact across the real estate and investment sectors.
+            Olorunleke &ldquo;Leke&rdquo; Ojuolape is a geologist-turned real estate entrepreneur and the Managing Director &amp; CEO of Mindfire Homes and Investments. He built Mindfire to do the hard work behind every plot and home &mdash; acquisition, due diligence, documentation, infrastructure planning and development &mdash; so clients can invest with confidence and live with pride.
           </p>
         </SectionReveal>
 

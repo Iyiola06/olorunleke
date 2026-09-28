@@ -5,8 +5,6 @@ import Image from 'next/image';
 import { PremiumButton } from './PremiumButton';
 import { FloatingCard } from './FloatingCard';
 
-import portraitImage from '/public/founder.jpg';
-
 export function FounderHero() {
   const headingText = ["OLORUNLEKE", "OJUOLAPE"];
   
@@ -31,9 +29,9 @@ export function FounderHero() {
             className="mb-6 flex items-center space-x-4"
           >
             <span className="uppercase tracking-[0.25em] text-[10px] md:text-xs font-bold text-dark">
-              Founder &bull; Entrepreneur &bull; Builder
+              Geologist &bull; Entrepreneur &bull; MD/CEO, Mindfire
             </span>
-            <div className="w-12 h-[1px] bg-gold" />
+            <div className="hidden sm:block w-12 h-[1px] bg-gold" />
           </motion.div>
           
           <h1 className="font-serif text-[3.2rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[5.2rem] xl:text-[6.2rem] leading-[0.95] tracking-tight text-dark mb-8">
@@ -61,7 +59,7 @@ export function FounderHero() {
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-lg lg:text-xl text-muted max-w-[480px] mb-10 font-sans font-light leading-relaxed"
           >
-            Building meaningful ventures through vision, strategy, and disciplined execution.
+            From the earth to estates. Managing Director &amp; CEO of Mindfire Homes and Investments &mdash; igniting a new standard of modern living in Nigeria.
           </motion.p>
 
           <motion.div 
@@ -70,8 +68,8 @@ export function FounderHero() {
             transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col sm:flex-row items-center gap-6"
           >
-            <PremiumButton variant="primary">Explore My Journey</PremiumButton>
-            <PremiumButton variant="secondary">View Ventures</PremiumButton>
+            <PremiumButton variant="primary" href="/about">Read My Story</PremiumButton>
+            <PremiumButton variant="secondary" href="/portfolio">Explore Mindfire</PremiumButton>
           </motion.div>
 
         </div>
@@ -89,7 +87,7 @@ export function FounderHero() {
               <div className="relative w-full h-full rounded-[24px] overflow-hidden">
                 <Image
                   src="/founder.jpg"
-                  alt="Olorunleke Ojuolape - Founder & Entrepreneur"
+                  alt="Olorunleke (Leke) Ojuolape, MD/CEO of Mindfire Homes and Investments"
                   fill
                   className="object-cover object-top"
                   priority
@@ -100,20 +98,20 @@ export function FounderHero() {
 
             {/* Floating Glass Cards */}
             <FloatingCard 
-              title="Vision" 
-              description="Creating opportunities through strategic thinking."
+              title="Geology" 
+              description="Trained to read what lies beneath."
               className="hidden md:block -left-4 sm:-left-8 lg:-left-12 top-10"
               delay={0}
             />
             <FloatingCard 
-              title="Focus" 
-              description="Building sustainable value."
+              title="Mindfire" 
+              description="Clean titles. Strategic locations."
               className="hidden md:block -right-4 sm:-right-8 lg:-right-10 top-1/2 -translate-y-1/2"
               delay={2}
             />
             <FloatingCard 
-              title="Legacy" 
-              description="Impact beyond business."
+              title="Skylands" 
+              description="A little of heaven on earth."
               className="hidden md:block -left-4 sm:-left-8 lg:-left-12 bottom-8"
               delay={4}
             />

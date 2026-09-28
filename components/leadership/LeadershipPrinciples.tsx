@@ -5,20 +5,20 @@ import { SectionReveal } from '../SectionReveal';
 
 const principles = [
   {
-    title: "VISIONARY THINKING",
-    desc: "Looking beyond immediate challenges to identify future possibilities."
+    title: "STRATEGIST",
+    desc: "Seeing formation, structure and potential where others see just land."
   },
   {
-    title: "STRATEGIC DECISION MAKING",
-    desc: "Combining insight, analysis, and execution to make meaningful decisions."
+    title: "NEGOTIATOR",
+    desc: "Structuring deals that are fair, durable and verifiable."
   },
   {
-    title: "RELATIONSHIP BUILDING",
-    desc: "Creating partnerships based on trust, alignment, and shared objectives."
+    title: "LEADER",
+    desc: "Building a team that does the hard work behind every estate."
   },
   {
-    title: "CONTINUOUS IMPROVEMENT",
-    desc: "Learning, adapting, and evolving with changing environments."
+    title: "VISIONARY",
+    desc: "Proving Nigeria can offer world-class living without compromise."
   }
 ];
 
@@ -34,8 +34,8 @@ export function LeadershipPrinciples() {
             <div className="w-8 h-[1px] bg-gold" />
           </div>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark leading-tight max-w-3xl">
-            The Principles Behind <br className="hidden md:block"/>
-            <span className="italic text-gold">The Leadership</span>
+            Four Hats. <br className="hidden md:block"/>
+            <span className="italic text-gold">One Standard.</span>
           </h2>
         </SectionReveal>
 

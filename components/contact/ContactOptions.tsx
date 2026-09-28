@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
 import { Mail, Linkedin, Instagram, Briefcase } from 'lucide-react';
-import Link from 'next/link';
+import { CONTACT_EMAIL, LINKEDIN_URL, INSTAGRAM_URL, MINDFIRE_URL } from '@/lib/site';
 
 export function ContactOptions() {
   return (
@@ -41,11 +41,11 @@ export function ContactOptions() {
               </p>
               
               <p className="font-sans text-xs text-dark mb-8 tracking-wider font-medium break-all">
-                ogunjobiniyiola906@gmail.com
+                {CONTACT_EMAIL}
               </p>
               
               <a
-                href="mailto:ogunjobiniyiola906@gmail.com"
+                href={`mailto:${CONTACT_EMAIL}`}
                 className="mt-auto px-6 py-3 w-full border border-dark/20 rounded-full font-sans text-xs uppercase tracking-widest font-semibold text-dark hover:bg-dark hover:text-white transition-colors duration-300"
               >
                 Send Email
@@ -65,21 +65,31 @@ export function ContactOptions() {
                 <Briefcase className="w-6 h-6 text-dark/60 group-hover:text-gold transition-colors duration-400" />
               </div>
               
-              <h3 className="font-serif text-2xl text-dark mb-4">Strategic Ventures</h3>
+              <h3 className="font-serif text-2xl text-dark mb-4">Invest With Mindfire</h3>
               <p className="font-sans text-sm text-muted font-light mb-8 max-w-[220px]">
-                Mindfire Homes real estate developments, joint ventures, and executive advisory.
+                Land, homes, Skylands enquiries and joint ventures with Mindfire Homes and Investments.
               </p>
               
               <p className="font-sans text-xs text-dark mb-8 tracking-wider font-semibold uppercase text-gold">
                 Mindfire Homes
               </p>
               
-              <a
-                href="mailto:ogunjobiniyiola906@gmail.com?subject=Strategic%20Partnership"
-                className="mt-auto px-6 py-3 w-full border border-dark/20 rounded-full font-sans text-xs uppercase tracking-widest font-semibold text-dark hover:bg-dark hover:text-white transition-colors duration-300"
-              >
-                Inquire Now
-              </a>
+              <div className="mt-auto w-full flex flex-col gap-3">
+                <a
+                  href={`mailto:${CONTACT_EMAIL}?subject=Mindfire%20Investment%20Enquiry`}
+                  className="px-6 py-3 w-full border border-dark/20 rounded-full font-sans text-xs uppercase tracking-widest font-semibold text-dark hover:bg-dark hover:text-white transition-colors duration-300"
+                >
+                  Enquire By Email
+                </a>
+                <a
+                  href={MINDFIRE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-[10px] uppercase tracking-widest font-semibold text-muted hover:text-gold transition-colors duration-300"
+                >
+                  mindfirehomes.com
+                </a>
+              </div>
             </div>
           </motion.div>
 
@@ -99,7 +109,7 @@ export function ContactOptions() {
               
               <div className="flex items-center space-x-4 mb-8 mt-auto">
                 <a 
-                  href="https://www.linkedin.com/in/olorunleke-ojuolape" 
+                  href={LINKEDIN_URL} 
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -108,7 +118,7 @@ export function ContactOptions() {
                   <Linkedin className="w-5 h-5 text-dark/50 group-hover/icon:text-gold transition-colors duration-300" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/olorunleke___/" 
+                  href={INSTAGRAM_URL} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   aria-label="Instagram"

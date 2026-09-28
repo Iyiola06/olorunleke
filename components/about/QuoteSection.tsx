@@ -22,7 +22,7 @@ export function QuoteSection() {
         
         <SectionReveal delay={0.2}>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark leading-snug max-w-4xl mx-auto -mt-20">
-            Success is not only measured by what you build, but by the <span className="italic text-gold">value you create for others.</span>
+            At my core, I&apos;m still that student of the earth who believes <span className="italic text-gold">land can change lives.</span>
           </h2>
         </SectionReveal>
         

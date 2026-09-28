@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
 import { Mail } from 'lucide-react';
+import { CONTACT_EMAIL } from '@/lib/site';
 
 export function ContactCTA() {
   return (
@@ -26,7 +27,7 @@ export function ContactCTA() {
           </p>
 
           <motion.a
-            href="mailto:ogunjobiniyiola906@gmail.com?subject=Inquiry%20for%20Olorunleke%20Ojuolape"
+            href={`mailto:${CONTACT_EMAIL}?subject=Inquiry%20for%20Olorunleke%20Ojuolape`}
             whileHover={{ y: -3 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
             className="group relative inline-flex items-center justify-center space-x-3 px-10 py-5 font-sans text-sm font-semibold tracking-widest uppercase bg-gold text-white rounded-full overflow-hidden hover:shadow-[0_20px_40px_rgba(200,169,106,0.3)] transition-all duration-500"

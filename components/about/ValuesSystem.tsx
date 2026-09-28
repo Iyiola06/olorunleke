@@ -7,22 +7,22 @@ const values = [
   {
     num: "01",
     title: "VISION",
-    desc: "Seeing possibilities beyond immediate challenges."
+    desc: "Seeing formation, structure and potential where others see just land."
   },
   {
     num: "02",
-    title: "INTEGRITY",
-    desc: "Building trust through transparency and consistency."
+    title: "PRECISION",
+    desc: "Due diligence and documentation done properly, before a single plot is offered."
   },
   {
     num: "03",
-    title: "EXCELLENCE",
-    desc: "Pursuing quality in every decision and execution."
+    title: "FIRE",
+    desc: "The drive not just to work in the industry, but to reshape it."
   },
   {
     num: "04",
-    title: "IMPACT",
-    desc: "Creating value that extends beyond business."
+    title: "LEGACY",
+    desc: "Communities where the next generation will thrive."
   }
 ];
 
@@ -37,11 +37,11 @@ export function ValuesSystem() {
         <SectionReveal className="text-center mb-24">
           <div className="flex items-center justify-center space-x-4 mb-6">
             <div className="w-8 h-[1px] bg-gold" />
-            <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">Core Values</span>
+            <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">What Mindfire Stands For</span>
             <div className="w-8 h-[1px] bg-gold" />
           </div>
           <h2 className="font-serif text-4xl md:text-5xl text-dark">
-            The Foundation of Practice
+            Vision. Precision. <span className="italic text-gold">Fire.</span>
           </h2>
         </SectionReveal>
 

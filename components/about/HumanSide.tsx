@@ -6,18 +6,18 @@ import { SectionReveal } from '../SectionReveal';
 
 const humanAspects = [
   {
-    title: "Leadership",
-    desc: "Guiding teams with clarity and purpose, fostering environments where excellence thrives naturally.",
+    title: "On The Golf Course",
+    desc: "Quiet, strategic and unforgiving of shortcuts — just like geology, just like real estate. The long game on the course is the long game in business.",
     img: "/founder.jpg"
   },
   {
-    title: "Relationships",
-    desc: "Cultivating deep, lasting connections based on mutual respect, transparency, and shared values.",
+    title: "Many Hats",
+    desc: "Strategist, negotiator, leader, visionary. Different roles, one standard: value that holds.",
     img: "/1.jpg"
   },
   {
-    title: "Continuous Learning",
-    desc: "Maintaining an unyielding curiosity, always seeking new perspectives to refine strategy and vision.",
+    title: "Student Of The Earth",
+    desc: "Still the student who believes land can change lives, and that every family deserves a better life than the one before.",
     img: "/about.jpg"
   }
 ];
@@ -45,15 +45,15 @@ export function HumanSide() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, delay: idx * 0.15, ease: [0.16, 1, 0.3, 1] }}
-              className="flex flex-col group cursor-pointer"
+              className="flex flex-col group"
             >
               <div className="relative w-full aspect-[3/4] rounded-[32px] overflow-hidden mb-8 border border-white/40 shadow-[0_20px_40px_rgba(24,24,24,0.05)]">
                 <Image
                   src={aspect.img}
-                  alt={aspect.title}
+                  alt={`Olorunleke Ojuolape — ${aspect.title}`}
                   fill
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
-                  referrerPolicy="no-referrer"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-dark/10 group-hover:bg-dark/0 transition-colors duration-500" />
               </div>

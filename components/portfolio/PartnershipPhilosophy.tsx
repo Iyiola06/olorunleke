@@ -3,10 +3,10 @@
 import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
 
-const principles = ["Trust", "Alignment", "Execution"];
+const principles = ["Formation", "Structure", "Potential"];
 
 export function PartnershipPhilosophy() {
-  const statement = "Strong partnerships transform individual ideas into collective achievements.";
+  const statement = "What lies beneath determines what can stand above.";
   const words = statement.split(" ");
 
   const container = {

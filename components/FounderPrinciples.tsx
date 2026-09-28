@@ -5,9 +5,9 @@ import { SectionReveal } from './SectionReveal';
 
 export function FounderPrinciples() {
   const principles = [
-    { num: "01", title: "Think Long Term", desc: "Every decision should create sustainable value." },
-    { num: "02", title: "Build With Integrity", desc: "Trust is the foundation of meaningful partnerships." },
-    { num: "03", title: "Create Impact", desc: "Success is measured by the value created." }
+    { num: "01", title: "Read What Lies Beneath", desc: "Geology taught me that location is never accidental, and what lies beneath determines what can stand above." },
+    { num: "02", title: "No Stories, No Stress", desc: "Clean, verifiable titles and honest documentation, so every client can invest with confidence." },
+    { num: "03", title: "Play The Long Game", desc: "Like golf: patience when deals delay, precision when stakes are high, humility in wins and losses." }
   ];
 
   return (
@@ -41,7 +41,7 @@ export function FounderPrinciples() {
               </div>
               <div>
                 <h3 className="font-serif text-3xl md:text-4xl text-dark mb-4">{p.title}</h3>
-                <p className="font-sans font-light text-muted text-lg max-w-sm">{p.desc}</p>
+                <p className="font-sans font-light text-muted text-lg max-w-md leading-relaxed">{p.desc}</p>
               </div>
             </motion.div>
           ))}

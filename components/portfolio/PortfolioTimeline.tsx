@@ -5,11 +5,11 @@ import { useRef } from 'react';
 import { SectionReveal } from '../SectionReveal';
 
 const approachSteps = [
-  { num: "01", title: "Vision", desc: "Understanding future potential." },
-  { num: "02", title: "Research", desc: "Studying markets and opportunities." },
-  { num: "03", title: "Strategy", desc: "Creating sustainable approaches." },
-  { num: "04", title: "Execution", desc: "Turning ideas into reality." },
-  { num: "05", title: "Growth", desc: "Building lasting value." }
+  { num: "01", title: "Locate", desc: "Study where value will grow." },
+  { num: "02", title: "Verify", desc: "Titles and history, checked." },
+  { num: "03", title: "Plan", desc: "Infrastructure for real living." },
+  { num: "04", title: "Develop", desc: "No shortcuts, no compromise." },
+  { num: "05", title: "Appreciate", desc: "Investment that becomes legacy." }
 ];
 
 export function PortfolioTimeline() {
@@ -26,11 +26,11 @@ export function PortfolioTimeline() {
         <SectionReveal className="mb-24 flex flex-col items-center text-center">
           <div className="flex items-center space-x-4 mb-6">
             <div className="w-8 h-[1px] bg-gold" />
-            <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">Strategic Approach</span>
+            <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">The Mindfire Method</span>
             <div className="w-8 h-[1px] bg-gold" />
           </div>
           <h2 className="font-serif text-4xl md:text-5xl text-dark">
-            How Opportunities Are Evaluated
+            From Ground To Legacy
           </h2>
         </SectionReveal>
 

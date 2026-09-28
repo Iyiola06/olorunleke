@@ -6,23 +6,23 @@ import { SectionReveal } from '../SectionReveal';
 const pillars = [
   {
     num: "01",
-    title: "VISION BEFORE ACTION",
-    desc: "Understanding the destination before deciding the path."
+    title: "LOCATION IS NEVER ACCIDENTAL",
+    desc: "Value follows geography, access and growth. Study all three first."
   },
   {
     num: "02",
-    title: "VALUE CREATION",
-    desc: "Building solutions that generate meaningful outcomes."
+    title: "WHAT LIES BENEATH MATTERS",
+    desc: "Clean titles and sound fundamentals decide what can stand above."
   },
   {
     num: "03",
-    title: "STRATEGIC EXECUTION",
-    desc: "Turning ideas into measurable progress."
+    title: "NO SHORTCUTS",
+    desc: "Real estate, like golf, is unforgiving of shortcuts. Do the hard work."
   },
   {
     num: "04",
-    title: "LONG-TERM THINKING",
-    desc: "Creating foundations designed to endure."
+    title: "THE LONG GAME",
+    desc: "Investment that becomes legacy for the next generation."
   }
 ];
 

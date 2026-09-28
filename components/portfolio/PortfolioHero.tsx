@@ -5,7 +5,7 @@ import Image from 'next/image';
 import heroBg from '../../src/assets/images/premium_abstract_business_1787322048855.jpg';
 
 export function PortfolioHero() {
-  const headingText = ["Building Ventures", "That Matter"];
+  const headingText = ["Igniting A New", "Standard Of Living"];
 
   return (
     <section className="relative min-h-[85vh] flex items-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 md:px-12 lg:px-16 overflow-hidden bg-cream">
@@ -14,7 +14,7 @@ export function PortfolioHero() {
       <div className="absolute inset-0 z-0 bg-cream">
         <Image
           src={heroBg}
-          alt="Abstract business texture"
+          alt=""
           fill
           className="object-cover opacity-5 mix-blend-multiply"
           priority
@@ -35,7 +35,7 @@ export function PortfolioHero() {
           >
             <div className="w-8 h-[1px] bg-gold" />
             <span className="uppercase tracking-[0.25em] text-[10px] md:text-xs font-bold text-dark">
-              BUSINESS PORTFOLIO
+              VENTURES &amp; PORTFOLIO
             </span>
           </motion.div>
           
@@ -62,9 +62,9 @@ export function PortfolioHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="text-lg md:text-xl text-muted max-w-[500px] font-sans font-light leading-relaxed"
+            className="text-lg md:text-xl text-muted max-w-[540px] font-sans font-light leading-relaxed"
           >
-            Creating strategic opportunities through innovation, partnerships, and sustainable value creation.
+            Mindfire Homes and Investments, led by Olorunleke Ojuolape as MD/CEO, builds on three promises: clean, verifiable titles; strategic locations with real appreciation potential; and communities designed for how people actually want to live.
           </motion.p>
         </div>
 
@@ -78,7 +78,7 @@ export function PortfolioHero() {
           >
             <Image
               src={heroBg}
-              alt="Premium Ventures Ecosystem"
+              alt="Modern architecture reflecting the Mindfire standard of living"
               fill
               className="object-cover"
               sizes="50vw"

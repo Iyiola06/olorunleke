@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { SectionReveal } from '../SectionReveal';
 
 export function VisionHero() {
-  const headingText = ["Building Today.", "Creating Tomorrow."];
+  const headingText = ["Own A Piece", "Of The Future."];
 
   return (
     <section className="relative min-h-[85vh] flex flex-col items-center justify-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 overflow-hidden bg-ivory">
@@ -43,7 +43,7 @@ export function VisionHero() {
         >
           <div className="w-8 h-[1px] bg-gold/50" />
           <span className="uppercase tracking-[0.25em] text-[10px] md:text-xs font-bold text-dark">
-            VISION & PHILOSOPHY
+            VISION &amp; MISSION
           </span>
           <div className="w-8 h-[1px] bg-gold/50" />
         </motion.div>
@@ -71,9 +71,9 @@ export function VisionHero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="text-lg md:text-xl text-muted max-w-[550px] font-sans font-light leading-relaxed"
+          className="text-lg md:text-xl text-muted max-w-[640px] font-sans font-light leading-relaxed"
         >
-          A founder&apos;s vision is not only about where you are today, but the future you have the courage to create.
+          My mission is simple: to help more people own a piece of the future, to give families a better life than the one before, and to build communities where the next generation will thrive.
         </motion.p>
       </div>
 

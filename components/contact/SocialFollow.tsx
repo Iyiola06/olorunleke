@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Link from 'next/link';
+import { LINKEDIN_URL, INSTAGRAM_URL } from '@/lib/site';
 
 export function SocialFollow() {
   return (
@@ -25,8 +25,8 @@ export function SocialFollow() {
         </motion.h2>
 
         <div className="flex flex-wrap justify-center gap-6">
-          <SocialPill name="LinkedIn" href="https://www.linkedin.com/in/olorunleke-ojuolape" external delay={0.1} />
-          <SocialPill name="Instagram" href="https://www.instagram.com/olorunleke___/" external delay={0.2} />
+          <SocialPill name="LinkedIn" href={LINKEDIN_URL} external delay={0.1} />
+          <SocialPill name="Instagram" href={INSTAGRAM_URL} external delay={0.2} />
         </div>
 
       </div>

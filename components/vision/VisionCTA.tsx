@@ -21,7 +21,7 @@ export function VisionCTA() {
           </h2>
           
           <p className="font-sans text-lg md:text-xl text-muted font-light mb-14 max-w-2xl mx-auto leading-relaxed">
-            Explore opportunities to collaborate, build, and create lasting value.
+            Explore land, homes and partnerships with Mindfire Homes and Investments.
           </p>
 
           <motion.a

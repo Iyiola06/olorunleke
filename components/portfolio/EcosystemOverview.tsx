@@ -6,23 +6,23 @@ import { SectionReveal } from '../SectionReveal';
 const ecosystemCards = [
   {
     num: "01",
-    title: "REAL ESTATE",
-    desc: "Creating value through property, development, and strategic opportunities."
+    title: "ACQUISITION",
+    desc: "Securing land in strategic locations with real appreciation potential."
   },
   {
     num: "02",
-    title: "ENTREPRENEURSHIP",
-    desc: "Building solutions around identified market opportunities."
+    title: "DUE DILIGENCE",
+    desc: "Verifying every title and land history before a single plot is offered."
   },
   {
     num: "03",
-    title: "PARTNERSHIPS",
-    desc: "Collaborating with people and organisations aligned with growth."
+    title: "DOCUMENTATION",
+    desc: "Clean, verifiable titles and paperwork that stand up to scrutiny."
   },
   {
     num: "04",
-    title: "INVESTMENTS",
-    desc: "Supporting ideas and ventures with long-term potential."
+    title: "INFRASTRUCTURE & DEVELOPMENT",
+    desc: "Planning and building communities designed for how people actually live."
   }
 ];
 
@@ -38,13 +38,13 @@ export function EcosystemOverview() {
           <div className="max-w-xl">
             <div className="flex items-center space-x-4 mb-6">
               <div className="w-8 h-[1px] bg-gold" />
-              <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">Overview</span>
+              <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">What We Do</span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl text-dark leading-tight mb-6">
-              The Ecosystem
+              The Hard Work Behind Every Estate
             </h2>
             <p className="font-sans text-lg text-muted font-light leading-relaxed">
-              A collection of initiatives, partnerships, and opportunities focused on creating meaningful impact.
+              We don&apos;t just market land. Mindfire handles everything behind it, so our clients can invest with confidence and live with pride.
             </p>
           </div>
         </SectionReveal>
@@ -71,12 +71,6 @@ export function EcosystemOverview() {
                   <span className="font-sans text-6xl font-light text-dark/10 group-hover:text-gold/20 transition-colors duration-500">
                     {card.num}
                   </span>
-                  
-                  <div className="w-10 h-10 rounded-full border border-dark/10 flex items-center justify-center group-hover:bg-gold group-hover:border-gold transition-colors duration-500">
-                    <svg className="w-4 h-4 text-dark/40 group-hover:text-white transition-colors duration-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </div>
                 </div>
                 
                 <h3 className="font-sans text-sm uppercase tracking-[0.2em] font-bold text-dark mb-4 group-hover:text-gold transition-colors duration-500">

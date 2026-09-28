@@ -29,7 +29,7 @@ export function FutureVision() {
           >
             <Image
               src={futureImage}
-              alt="Future Vision Architecture"
+              alt="Contemporary residential architecture"
               fill
               className="object-cover"
               sizes="100vw"
@@ -49,7 +49,7 @@ export function FutureVision() {
             className="absolute bottom-8 md:bottom-16 left-6 md:left-16 right-6 md:right-auto md:w-[600px] bg-white/20 backdrop-blur-[30px] border border-white/40 p-8 md:p-12 rounded-[32px] shadow-[0_20px_50px_rgba(24,24,24,0.15)]"
           >
             <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-tight text-white drop-shadow-sm">
-              Building ecosystems where people, ideas, and opportunities can thrive.
+              Building communities where the next generation will thrive.
             </p>
           </motion.div>
           

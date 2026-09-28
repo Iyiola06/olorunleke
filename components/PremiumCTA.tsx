@@ -21,11 +21,11 @@ export function PremiumCTA() {
             <span className="italic text-gold">Meaningful.</span>
           </h2>
           
-          <p className="font-sans text-lg text-muted font-light mb-12 max-w-md mx-auto">
-            For partnerships, investments, and strategic conversations.
+          <p className="font-sans text-lg text-muted font-light mb-12 max-w-lg mx-auto">
+            For land and home investments, joint ventures, and strategic conversations with Mindfire Homes and Investments.
           </p>
 
-          <PremiumButton variant="primary" className="px-12 py-5 text-sm">
+          <PremiumButton variant="primary" href="/contact" className="px-12 py-5 text-sm">
             Start A Conversation
           </PremiumButton>
         </div>

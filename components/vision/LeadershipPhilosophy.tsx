@@ -4,9 +4,9 @@ import { motion, useScroll, useTransform, MotionValue } from 'motion/react';
 import { useRef } from 'react';
 
 const statements = [
-  "Think Beyond The Moment",
-  "Build With Purpose",
-  "Create Meaningful Impact"
+  "Patience When Deals Delay",
+  "Precision When Stakes Are High",
+  "Humility In Wins And Losses"
 ];
 
 export function LeadershipPhilosophy() {
@@ -27,7 +27,7 @@ export function LeadershipPhilosophy() {
         
         <div className="absolute top-20 flex items-center space-x-4">
           <div className="w-8 h-[1px] bg-gold" />
-          <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">Leadership</span>
+          <span className="uppercase tracking-[0.2em] text-xs font-semibold text-gold">Lessons From The Golf Course</span>
           <div className="w-8 h-[1px] bg-gold" />
         </div>
 

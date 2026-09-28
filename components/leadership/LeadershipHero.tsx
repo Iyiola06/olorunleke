@@ -2,7 +2,6 @@
 
 import { motion } from 'motion/react';
 import Image from 'next/image';
-import portraitImage from '../../src/assets/images/leadership_executive_portrait_1787322393865.jpg';
 
 export function LeadershipHero() {
   const headingLines = ["Leading With Vision.", "Building With Purpose."];
@@ -57,7 +56,7 @@ export function LeadershipHero() {
             transition={{ duration: 1.2, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="text-lg md:text-xl text-muted max-w-[550px] font-sans font-light leading-relaxed"
           >
-            True leadership combines strategic thinking, disciplined execution, and the ability to inspire meaningful progress.
+            Strategist, negotiator, leader, visionary. Many hats, one standard: do the hard work so every client can invest with confidence.
           </motion.p>
         </div>
 
@@ -75,7 +74,7 @@ export function LeadershipHero() {
               
               <Image
                 src="/1.jpg"
-                alt="Executive Portrait - Olorunleke Ojuolape"
+                alt="Olorunleke Ojuolape, MD/CEO of Mindfire Homes and Investments"
                 fill
                 className="object-cover"
                 priority

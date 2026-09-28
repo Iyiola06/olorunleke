@@ -35,7 +35,7 @@ export function TestimonialFramework() {
           </div>
           
           <p className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark leading-[1.3] mb-16 relative z-10 max-w-4xl pt-8">
-            Success in real estate is built on a foundation of unyielding integrity, strategic foresight, and a commitment to creating lasting value for communities.
+            We don&apos;t just market land. We do the hard work behind it, so our clients can invest with confidence and live with pride.
           </p>
 
           <div className="flex flex-col items-center">
@@ -44,7 +44,7 @@ export function TestimonialFramework() {
               Olorunleke Ojuolape
             </h4>
             <p className="font-sans text-sm text-muted font-light">
-              Founder & CEO <span className="mx-2 text-gold/50">|</span> Mindfire Homes
+              MD/CEO <span className="mx-2 text-gold/50">|</span> Mindfire Homes and Investments
             </p>
           </div>
           
