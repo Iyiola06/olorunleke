@@ -3,7 +3,6 @@
 import { motion } from 'motion/react';
 import Image from 'next/image';
 import { MINDFIRE_URL } from '@/lib/site';
-import futureBg from '../../src/assets/images/luxury_future_opportunities_1787322089218.jpg';
 
 export function FutureOpportunitiesCTA() {
   return (
@@ -12,7 +11,7 @@ export function FutureOpportunitiesCTA() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src={futureBg}
+          src="/images/jahi-rooftop.jpg"
           alt=""
           fill
           className="object-cover"

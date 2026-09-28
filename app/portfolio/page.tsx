@@ -1,6 +1,7 @@
 import { PortfolioHero } from '@/components/portfolio/PortfolioHero';
 import { EcosystemOverview } from '@/components/portfolio/EcosystemOverview';
 import { VentureShowcase } from '@/components/portfolio/VentureShowcase';
+import { ProjectGallery } from '@/components/portfolio/ProjectGallery';
 import { PortfolioTimeline } from '@/components/portfolio/PortfolioTimeline';
 import { MindfirePromise } from '@/components/portfolio/MindfirePromise';
 import { PartnershipPhilosophy } from '@/components/portfolio/PartnershipPhilosophy';
@@ -34,6 +35,7 @@ export default function PortfolioPage() {
       <PortfolioHero />
       <EcosystemOverview />
       <VentureShowcase />
+      <ProjectGallery />
       <PortfolioTimeline />
       <MindfirePromise />
       <PartnershipPhilosophy />

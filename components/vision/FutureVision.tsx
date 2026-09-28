@@ -3,7 +3,6 @@
 import { motion } from 'motion/react';
 import Image from 'next/image';
 import { SectionReveal } from '../SectionReveal';
-import futureImage from '../../src/assets/images/future_architecture_vision_1787321525325.jpg';
 
 export function FutureVision() {
   return (
@@ -28,8 +27,8 @@ export function FutureVision() {
             className="absolute inset-0 w-full h-full"
           >
             <Image
-              src={futureImage}
-              alt="Contemporary residential architecture"
+              src="/images/wuye-construction.jpg"
+              alt="Mindfire Homes apartment block under construction in Wuye, Abuja"
               fill
               className="object-cover"
               sizes="100vw"

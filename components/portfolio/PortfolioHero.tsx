@@ -2,7 +2,6 @@
 
 import { motion } from 'motion/react';
 import Image from 'next/image';
-import heroBg from '../../src/assets/images/premium_abstract_business_1787322048855.jpg';
 
 export function PortfolioHero() {
   const headingText = ["Igniting A New", "Standard Of Living"];
@@ -10,18 +9,7 @@ export function PortfolioHero() {
   return (
     <section className="relative min-h-[85vh] flex items-center pt-36 md:pt-40 lg:pt-44 pb-20 px-6 md:px-12 lg:px-16 overflow-hidden bg-cream">
       
-      {/* Background with low opacity architectural texture */}
-      <div className="absolute inset-0 z-0 bg-cream">
-        <Image
-          src={heroBg}
-          alt=""
-          fill
-          className="object-cover opacity-5 mix-blend-multiply"
-          priority
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-cream via-cream/80 to-transparent" />
-      </div>
+      <div className="absolute inset-0 z-0 bg-cream" />
 
       <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
@@ -68,7 +56,7 @@ export function PortfolioHero() {
           </motion.p>
         </div>
 
-        {/* Right: Abstract Premium Business Imagery */}
+        {/* Right: Project Michika on site */}
         <div className="hidden lg:block relative h-[600px] w-full rounded-[40px] overflow-hidden">
           <motion.div
             initial={{ opacity: 0, scale: 1.1, filter: "blur(20px)" }}
@@ -77,16 +65,21 @@ export function PortfolioHero() {
             className="absolute inset-0 w-full h-full"
           >
             <Image
-              src={heroBg}
-              alt="Modern architecture reflecting the Mindfire standard of living"
+              src="/images/michika-aerial.jpg"
+              alt="Aerial view of Project Michika under construction in Durumi, Abuja"
               fill
-              className="object-cover"
+              className="object-cover object-[center_75%]"
               sizes="50vw"
               priority
             />
             {/* Elegant overlay to blend the image */}
             <div className="absolute inset-0 bg-gradient-to-tr from-dark/10 via-transparent to-dark/5" />
             <div className="absolute inset-0 ring-1 ring-inset ring-white/20 rounded-[40px]" />
+            <div className="absolute bottom-6 left-6 bg-white/15 backdrop-blur-xl border border-white/30 rounded-full px-5 py-2">
+              <span className="font-sans text-[10px] uppercase tracking-[0.2em] font-semibold text-white">
+                Project Michika · Durumi, Abuja · Under construction
+              </span>
+            </div>
           </motion.div>
         </div>
 

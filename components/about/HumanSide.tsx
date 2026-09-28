@@ -8,12 +8,12 @@ const humanAspects = [
   {
     title: "On The Golf Course",
     desc: "Quiet, strategic and unforgiving of shortcuts, just like geology and real estate. The long game on the course is the long game in business.",
-    img: "/founder.jpg"
+    img: "/images/leke-golf-putt.jpg"
   },
   {
     title: "Many Hats",
     desc: "Strategist, negotiator, leader, visionary. Different roles, one standard: value that holds.",
-    img: "/1.jpg"
+    img: "/images/leke-agbada-portrait.jpg"
   },
   {
     title: "Student Of The Earth",

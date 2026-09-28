@@ -1,12 +1,10 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { SectionReveal } from '../SectionReveal';
 import { MINDFIRE_URL } from '@/lib/site';
-import mindfireImage from '../../src/assets/images/luxury_office_space_1787322063551.jpg';
-import skylandsImage from '../../src/assets/images/future_architecture_vision_1787321525325.jpg';
 
 type Venture = {
   id: string;
@@ -14,8 +12,8 @@ type Venture = {
   name: string;
   description: string;
   meta: string;
-  image: StaticImageData;
-  imageAlt: string;
+  image?: string;
+  imageAlt?: string;
   cta: { label: string; href: string; external?: boolean };
 };
 
@@ -27,8 +25,8 @@ const ventures: Venture[] = [
     description:
       'Created with fire in its name to ignite a new standard of modern living in Nigeria. Mindfire handles acquisition, due diligence, documentation, infrastructure planning and development end to end. No stories, no stress, just value.',
     meta: 'Role: Founder, MD/CEO',
-    image: mindfireImage,
-    imageAlt: 'Modern interior representing Mindfire Homes and Investments',
+    image: '/images/jahi-exterior.jpg',
+    imageAlt: 'Completed Mindfire Homes apartment block in Jahi, Abuja',
     cta: { label: 'Visit mindfirehomes.com', href: MINDFIRE_URL, external: true },
   },
   {
@@ -38,8 +36,6 @@ const ventures: Venture[] = [
     description:
       'A little of heaven on earth. Wide, serene, thoughtfully planned spaces where luxury meets peace, and investment meets legacy. Proof that Abuja can offer world-class living without compromise.',
     meta: 'By Mindfire Homes',
-    image: skylandsImage,
-    imageAlt: 'Contemporary architecture evoking the Skylands estate in Abuja',
     cta: { label: 'Enquire About Skylands', href: '/contact' },
   },
 ];
@@ -72,21 +68,28 @@ export function VentureShowcase() {
               id={venture.id}
               className="relative w-full min-h-[640px] md:min-h-[600px] xl:min-h-0 xl:aspect-[21/9] rounded-[40px] overflow-hidden group scroll-mt-32"
             >
-              <motion.div
-                initial={{ scale: 1 }}
-                whileInView={{ scale: 1.08 }}
-                viewport={{ once: false, margin: "100px" }}
-                transition={{ duration: 15, ease: "linear" }}
-                className="absolute inset-0 w-full h-full"
-              >
-                <Image
-                  src={venture.image}
-                  alt={venture.imageAlt}
-                  fill
-                  className="object-cover"
-                  sizes="100vw"
-                />
-              </motion.div>
+              {venture.image ? (
+                <motion.div
+                  initial={{ scale: 1 }}
+                  whileInView={{ scale: 1.08 }}
+                  viewport={{ once: false, margin: "100px" }}
+                  transition={{ duration: 15, ease: "linear" }}
+                  className="absolute inset-0 w-full h-full"
+                >
+                  <Image
+                    src={venture.image}
+                    alt={venture.imageAlt ?? ''}
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                  />
+                </motion.div>
+              ) : (
+                <div className="absolute inset-0 bg-dark">
+                  <div className="absolute -top-1/4 -right-1/4 w-[70%] aspect-square rounded-full bg-gold/20 blur-[120px]" />
+                  <div className="absolute bottom-0 left-0 w-[50%] aspect-square rounded-full bg-gold/10 blur-[100px]" />
+                </div>
+              )}
 
               {/* Cinematic lighting overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent" />
