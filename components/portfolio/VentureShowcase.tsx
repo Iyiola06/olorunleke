@@ -14,6 +14,7 @@ type Venture = {
   meta: string;
   image?: string;
   imageAlt?: string;
+  imageNote?: string;
   cta: { label: string; href: string; external?: boolean };
 };
 
@@ -36,6 +37,9 @@ const ventures: Venture[] = [
     description:
       'A little of heaven on earth. Wide, serene, thoughtfully planned spaces where luxury meets peace, and investment meets legacy. Proof that Abuja can offer world-class living without compromise.',
     meta: 'By Mindfire Homes',
+    image: '/images/skylands-elysian-render.jpg',
+    imageAlt: 'Render of a 4-bedroom Elysian detached home at NIBECO Gardens by Skylands, Abuja',
+    imageNote: "Artist's impression · Elysian, 4-bed detached",
     cta: { label: 'Enquire About Skylands', href: '/contact' },
   },
 ];
@@ -89,6 +93,12 @@ export function VentureShowcase() {
                   <div className="absolute -top-1/4 -right-1/4 w-[70%] aspect-square rounded-full bg-gold/20 blur-[120px]" />
                   <div className="absolute bottom-0 left-0 w-[50%] aspect-square rounded-full bg-gold/10 blur-[100px]" />
                 </div>
+              )}
+
+              {venture.imageNote && (
+                <span className="absolute top-6 right-6 md:top-10 md:right-10 z-10 bg-dark/40 backdrop-blur-xl border border-white/20 rounded-full px-4 py-2 font-sans text-[10px] uppercase tracking-[0.2em] font-semibold text-white/90">
+                  {venture.imageNote}
+                </span>
               )}
 
               {/* Cinematic lighting overlay */}
