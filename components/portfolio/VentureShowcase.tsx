@@ -25,7 +25,7 @@ const ventures: Venture[] = [
     category: 'Real Estate Development · Abuja',
     name: 'Mindfire Homes and Investments',
     description:
-      'Created with fire in its name to ignite a new standard of modern living in Nigeria. Mindfire handles acquisition, due diligence, documentation, infrastructure planning and development end to end — no stories, no stress, just value.',
+      'Created with fire in its name to ignite a new standard of modern living in Nigeria. Mindfire handles acquisition, due diligence, documentation, infrastructure planning and development end to end. No stories, no stress, just value.',
     meta: 'Role: Founder, MD/CEO',
     image: mindfireImage,
     imageAlt: 'Modern interior representing Mindfire Homes and Investments',
@@ -36,7 +36,7 @@ const ventures: Venture[] = [
     category: 'Flagship Estate · Abuja',
     name: 'Skylands',
     description:
-      'A little of heaven on earth. Wide, serene, thoughtfully planned spaces where luxury meets peace, and investment meets legacy — proof that Abuja can offer world-class living without compromise.',
+      'A little of heaven on earth. Wide, serene, thoughtfully planned spaces where luxury meets peace, and investment meets legacy. Proof that Abuja can offer world-class living without compromise.',
     meta: 'By Mindfire Homes',
     image: skylandsImage,
     imageAlt: 'Contemporary architecture evoking the Skylands estate in Abuja',

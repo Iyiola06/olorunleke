@@ -22,7 +22,7 @@ export function FounderIntro() {
   };
 
   const cards = [
-    { title: "GEOLOGY", desc: "Trained to read what lies beneath — and what it can hold up." },
+    { title: "GEOLOGY", desc: "Trained to read what lies beneath, and what it can hold up." },
     { title: "MINDFIRE", desc: "A new standard of modern living in Nigeria." },
     { title: "SKYLANDS", desc: "Elevated living in Abuja, where investment meets legacy." }
   ];
@@ -47,7 +47,7 @@ export function FounderIntro() {
 
         <SectionReveal delay={0.4} className="mb-24">
           <p className="font-sans font-light text-muted text-lg max-w-2xl mx-auto leading-relaxed">
-            Olorunleke &ldquo;Leke&rdquo; Ojuolape is a geologist-turned real estate entrepreneur and the Managing Director &amp; CEO of Mindfire Homes and Investments. He built Mindfire to do the hard work behind every plot and home &mdash; acquisition, due diligence, documentation, infrastructure planning and development &mdash; so clients can invest with confidence and live with pride.
+            Olorunleke &ldquo;Leke&rdquo; Ojuolape is a geologist-turned real estate entrepreneur and the Managing Director &amp; CEO of Mindfire Homes and Investments. He built Mindfire to do the hard work behind every plot and home (acquisition, due diligence, documentation, infrastructure planning and development) so clients can invest with confidence and live with pride.
           </p>
         </SectionReveal>
 

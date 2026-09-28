@@ -11,7 +11,7 @@ import { pageMetadata, graph, webPageNode, breadcrumbNode, skylandsNode, ORG_ID,
 
 const TITLE = 'Mindfire Homes & Skylands Estate, Abuja';
 const DESCRIPTION =
-  'Mindfire Homes and Investments, led by MD/CEO Olorunleke Ojuolape: land acquisition, due diligence, documentation and development in Abuja — including the Skylands estate.';
+  'Mindfire Homes and Investments, led by MD/CEO Olorunleke Ojuolape: land acquisition, due diligence, documentation and development in Abuja, including the Skylands estate.';
 
 export const metadata = pageMetadata({ path: '/portfolio', title: TITLE, description: DESCRIPTION });
 

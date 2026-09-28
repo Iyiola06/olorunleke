@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
 
 const DEFAULT_TITLE = 'Olorunleke Ojuolape | MD/CEO, Mindfire Homes & Investments';
 const DEFAULT_DESCRIPTION =
-  'Olorunleke (Leke) Ojuolape is a geologist-turned real estate entrepreneur and MD/CEO of Mindfire Homes and Investments in Abuja, Nigeria — clean titles, strategic locations and the Skylands estate.';
+  'Olorunleke (Leke) Ojuolape is a geologist-turned real estate entrepreneur and MD/CEO of Mindfire Homes and Investments in Abuja, Nigeria: clean titles, strategic locations and the Skylands estate.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

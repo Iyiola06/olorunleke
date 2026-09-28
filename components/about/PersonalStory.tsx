@@ -8,19 +8,19 @@ export function PersonalStory() {
     {
       num: "01",
       title: "The Ground Beneath",
-      text: "I have a background in Geology — and that changed how I see everything. While others saw just land, I saw formation, structure, potential. I learned how the earth holds value over time, how location is never accidental, and how what lies beneath determines what can stand above. Without knowing it, I was being trained for real estate.",
+      text: "I have a background in Geology, and that changed how I see everything. While others saw just land, I saw formation, structure, potential. I learned how the earth holds value over time, how location is never accidental, and how what lies beneath determines what can stand above. Without knowing it, I was being trained for real estate.",
       align: "left"
     },
     {
       num: "02",
       title: "From Studying Land To Unlocking Its Value",
-      text: "The shift from Geology to real estate wasn't a leap; it was a natural evolution. I moved from studying land to unlocking its value. From there, entrepreneurship took over — the drive to not just work in the industry, but to reshape it.",
+      text: "The shift from Geology to real estate wasn't a leap; it was a natural evolution. I moved from studying land to unlocking its value. From there, entrepreneurship took over: the drive to not just work in the industry, but to reshape it.",
       align: "right"
     },
     {
       num: "03",
       title: "Fire In The Name",
-      text: "That drive gave birth to Mindfire Homes and Investments. Mindfire was not created just to sell plots and houses. It was created with fire in its name for a reason — to ignite a new standard of modern living in Nigeria. Under my leadership as MD/CEO, we've built it into a brand known for three things: clean, verifiable titles; strategic locations with real appreciation potential; and communities designed for how people actually want to live.",
+      text: "That drive gave birth to Mindfire Homes and Investments. Mindfire was not created just to sell plots and houses. It was created with fire in its name for a reason: to ignite a new standard of modern living in Nigeria. Under my leadership as MD/CEO, we've built it into a brand known for three things: clean, verifiable titles; strategic locations with real appreciation potential; and communities designed for how people actually want to live.",
       align: "left"
     }
   ];

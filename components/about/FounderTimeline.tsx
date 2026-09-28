@@ -5,11 +5,11 @@ import { useRef } from 'react';
 import { SectionReveal } from '../SectionReveal';
 
 const timelineSteps = [
-  { label: "Geology", title: "Student Of The Earth", desc: "Learning to read formation, structure and potential — and that location is never accidental." },
+  { label: "Geology", title: "Student Of The Earth", desc: "Learning to read formation, structure and potential, and that location is never accidental." },
   { label: "Real Estate", title: "From Land To Value", desc: "A natural evolution: from studying land to unlocking its value." },
   { label: "Entrepreneurship", title: "The Drive To Reshape", desc: "Not just working in the industry, but setting out to change it." },
-  { label: "Mindfire", title: "Igniting A New Standard", desc: "Founding Mindfire Homes and Investments and leading it as MD/CEO — clean titles, strategic locations, designed communities." },
-  { label: "Skylands", title: "Elevated Living", desc: "Proving Abuja — and Nigeria — can offer world-class living without compromise." },
+  { label: "Mindfire", title: "Igniting A New Standard", desc: "Founding Mindfire Homes and Investments and leading it as MD/CEO: clean titles, strategic locations, designed communities." },
+  { label: "Skylands", title: "Elevated Living", desc: "Proving Abuja, and Nigeria, can offer world-class living without compromise." },
   { label: "Next", title: "A Piece Of The Future", desc: "Helping more families own land and homes, and building communities where the next generation will thrive." }
 ];
 

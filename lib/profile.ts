@@ -58,7 +58,7 @@ export const FAQS: Faq[] = [
   {
     question: 'What is Olorunleke Ojuolape\'s background?',
     answer:
-      'His background is in Geology. Studying the earth taught him how land holds value over time, that location is never accidental, and that what lies beneath determines what can stand above. The move from geology into real estate was a natural evolution — from studying land to unlocking its value.',
+      'His background is in Geology. Studying the earth taught him how land holds value over time, that location is never accidental, and that what lies beneath determines what can stand above. The move from geology into real estate was a natural evolution: from studying land to unlocking its value.',
   },
   {
     question: 'What is Mindfire Homes and Investments?',
@@ -66,12 +66,12 @@ export const FAQS: Faq[] = [
   },
   {
     question: 'What is Skylands?',
-    answer: `${PROFILE.skylandsDescription} It was created to show that Abuja — and Nigeria — can offer world-class living without compromise.`,
+    answer: `${PROFILE.skylandsDescription} It was created to show that Abuja, and Nigeria, can offer world-class living without compromise.`,
   },
   {
     question: 'What does Olorunleke Ojuolape do outside of work?',
     answer:
-      'He plays golf. He sees the game as quiet, strategic and unforgiving of shortcuts — like geology and real estate — and credits it with teaching patience when deals delay, precision when stakes are high, and humility in both wins and losses.',
+      'He plays golf. He sees the game as quiet, strategic and unforgiving of shortcuts, like geology and real estate, and credits it with teaching patience when deals delay, precision when stakes are high, and humility in both wins and losses.',
   },
   {
     question: 'How can I contact Olorunleke Ojuolape or invest with Mindfire?',

@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { PROFILE } from '@/lib/profile';
 
-export const alt = `${PROFILE.name} (Leke) — ${PROFILE.roleShort}, ${PROFILE.company}`;
+export const alt = `${PROFILE.name} (Leke), ${PROFILE.roleShort} of ${PROFILE.company}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 

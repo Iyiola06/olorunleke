@@ -44,7 +44,7 @@ export function FutureOpportunitiesCTA() {
           </h2>
           
           <p className="font-sans text-lg md:text-xl text-white/80 font-light mb-12 max-w-2xl mx-auto leading-relaxed">
-            Buying land, building a family home, or exploring a joint venture &mdash; every Mindfire estate starts with a conversation.
+            Buying land, building a family home, or exploring a joint venture? Every Mindfire estate starts with a conversation.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">

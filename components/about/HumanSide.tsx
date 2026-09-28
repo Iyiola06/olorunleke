@@ -7,7 +7,7 @@ import { SectionReveal } from '../SectionReveal';
 const humanAspects = [
   {
     title: "On The Golf Course",
-    desc: "Quiet, strategic and unforgiving of shortcuts — just like geology, just like real estate. The long game on the course is the long game in business.",
+    desc: "Quiet, strategic and unforgiving of shortcuts, just like geology and real estate. The long game on the course is the long game in business.",
     img: "/founder.jpg"
   },
   {
@@ -50,7 +50,7 @@ export function HumanSide() {
               <div className="relative w-full aspect-[3/4] rounded-[32px] overflow-hidden mb-8 border border-white/40 shadow-[0_20px_40px_rgba(24,24,24,0.05)]">
                 <Image
                   src={aspect.img}
-                  alt={`Olorunleke Ojuolape — ${aspect.title}`}
+                  alt={`Olorunleke Ojuolape: ${aspect.title}`}
                   fill
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, 33vw"

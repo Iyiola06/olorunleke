@@ -68,7 +68,7 @@ export function ContactHero() {
           transition={{ duration: 1.2, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-muted max-w-[650px] font-sans font-light leading-relaxed mb-12"
         >
-          Investing in land, buying a home, asking about Skylands, or exploring a joint venture with Mindfire Homes and Investments &mdash; start the conversation here.
+          Investing in land, buying a home, asking about Skylands, or exploring a joint venture with Mindfire Homes and Investments? Start the conversation here.
         </motion.p>
         
         <motion.a

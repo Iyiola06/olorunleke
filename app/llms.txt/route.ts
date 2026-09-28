@@ -28,7 +28,7 @@ export function GET() {
 
 ## Story
 
-${PROFILE.name} studied Geology. While others saw just land, he saw formation, structure and potential — how the earth holds value over time, why location is never accidental, and how what lies beneath determines what can stand above. Moving into real estate was a natural evolution: from studying land to unlocking its value. Entrepreneurship followed, and with it ${PROFILE.company}.
+${PROFILE.name} studied Geology. While others saw just land, he saw formation, structure and potential: how the earth holds value over time, why location is never accidental, and how what lies beneath determines what can stand above. Moving into real estate was a natural evolution: from studying land to unlocking its value. Entrepreneurship followed, and with it ${PROFILE.company}.
 
 ${PROFILE.mindfireDescription}
 
@@ -41,7 +41,7 @@ ${FAQS.map((f) => `### ${f.question}\n\n${f.answer}`).join('\n\n')}
 ## Pages
 
 - [Home](${SITE_URL}/): Overview and key facts
-- [About](${SITE_URL}/about): Full story — from geology to real estate, values, and FAQ
+- [About](${SITE_URL}/about): Full story from geology to real estate, values, and FAQ
 - [Portfolio](${SITE_URL}/portfolio): Mindfire Homes and Investments, Skylands, and how estates are developed
 - [Vision](${SITE_URL}/vision): Mission, guiding principles, and decision framework
 - [Leadership](${SITE_URL}/leadership): Leadership approach and values

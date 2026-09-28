@@ -11,7 +11,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { pageMetadata, graph, webPageNode, breadcrumbNode, faqNode, PERSON_ID } from '@/lib/seo';
 import { FAQS } from '@/lib/profile';
 
-const TITLE = 'About — From Geology to Real Estate';
+const TITLE = 'About: From Geology to Real Estate';
 const DESCRIPTION =
   'The story of Olorunleke (Leke) Ojuolape: a geologist who moved from studying land to unlocking its value, founded Mindfire Homes and Investments, and leads it as MD/CEO.';
 

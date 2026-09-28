@@ -59,7 +59,7 @@ export function FounderHero() {
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-lg lg:text-xl text-muted max-w-[480px] mb-10 font-sans font-light leading-relaxed"
           >
-            From the earth to estates. Managing Director &amp; CEO of Mindfire Homes and Investments &mdash; igniting a new standard of modern living in Nigeria.
+            From the earth to estates. Managing Director &amp; CEO of Mindfire Homes and Investments, igniting a new standard of modern living in Nigeria.
           </motion.p>
 
           <motion.div 
